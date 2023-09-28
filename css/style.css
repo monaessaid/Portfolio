@@ -850,9 +850,10 @@ figure.effect-julia:hover p {
 }
 
 .list-group {
-    padding-left: 20px;
-    margin-bottom: 20px;
+  padding-left: 20px;
+  margin-bottom: 20px;
 	list-style: circle;
+  font-size: 24px;
 }
 
  .img-studio {
