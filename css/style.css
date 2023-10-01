@@ -1045,7 +1045,8 @@ figure.effect-julia:hover p {
 
 
 .speciality-info:hover {
-	background-color: #eaeaea;
+	/* background-color: #eaeaea; */
+	background-color: #66999925;
 }
 
 .grid-serv figcaption {
@@ -1228,7 +1229,7 @@ figure.effect-julia:hover p {
   line-height: 1.7;
   margin-bottom: 0;
   margin-top: 40px;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
   letter-spacing: 0;
   color: #1a1a1a;
   text-align: justify;
@@ -1246,10 +1247,21 @@ figure.effect-julia:hover p {
 }
 
 .image-project {
-	margin-top: 70px;
-	padding-bottom: 40px;
-  padding-left: 60px;
+	margin-top: 15%;
+	padding-bottom: 2%;
+  padding-left: 10%;
+  padding-right: 5%;
 }
+
+.image-container {
+  margin: 0 auto;
+  padding-top: 5%;
+  padding-bottom: 7%;
+}
+
+/* .image-project {
+  margin: auto auto;
+} */
 
 .image-project1 {
 	position:relative;
@@ -1637,3 +1649,7 @@ figure.effect-julia p {
 /* #no-padding {
   padding-bottom: 0;
 } */
+
+.top-padding {
+  padding-top: 5%;
+}
