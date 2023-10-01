@@ -1363,11 +1363,10 @@ label {
 
 footer {
 	background-color: #727272;
-	background-image:url(../images/leaves_wallpaper2.png);
+	background-image:url(../images/ginko.png);
+	/* background-image:url(../images/leaves_wallpaper2.png); */
 	/* background-image:url(../images/leaves_wallpaper5.png); */
-	/* background-image:url(../images/birmingham-museum3.jpg); */
 	/* background-image:url(../images/leafy_wallpaper2.jpg); */
-	/* background-image:url(../images/floral_background.jpg); */
 	background-position: left top;
 	background-repeat: repeat;
 }
