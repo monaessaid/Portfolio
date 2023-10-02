@@ -62,7 +62,7 @@
 #gallerySlider .placeholder img{
 	display: inline-block;
 	max-height: 100%;
-	max-width: 100%;
+	max-width: 85%;
 	vertical-align: middle;
 }
 

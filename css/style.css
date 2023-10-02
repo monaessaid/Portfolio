@@ -178,6 +178,7 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
     padding: 14px 0;
     margin: 0 16px;
+    max-width: 50%;
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -1235,6 +1236,18 @@ figure.effect-julia:hover p {
   text-align: justify;
 }
 
+.text-projectd-no-top {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.7;
+  margin-bottom: 0;
+  /* margin-top: 40px; */
+  /* padding-bottom: 20px; */
+  letter-spacing: 0;
+  color: #1a1a1a;
+  text-align: justify;
+}
+
 .text-projectd-text {
   font-size: 20px;
   font-weight: 300;
@@ -1653,3 +1666,11 @@ figure.effect-julia p {
 .top-padding {
   padding-top: 5%;
 }
+
+/* .top-logo {
+  position: absolute;
+  width: 20%;
+  max-width: 20%;
+  height: 20%;
+  max-height: 20%;
+} */
