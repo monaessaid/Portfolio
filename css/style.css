@@ -1054,6 +1054,7 @@ figure.effect-julia:hover p {
 .speciality-info:hover {
 	/* background-color: #eaeaea; */
 	background-color: #66999925;
+  cursor: pointer;
 }
 
 .grid-serv figcaption {
@@ -1680,3 +1681,13 @@ figure.effect-julia p {
   height: 20%;
   max-height: 20%;
 } */
+
+.material-symbols-outlined {
+  color: black;
+  font-size: 100px;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 100,
+  'GRAD' 0,
+  'opsz' 100,
+}
