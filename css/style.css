@@ -1691,3 +1691,7 @@ figure.effect-julia p {
   'GRAD' 0,
   'opsz' 100,
 }
+
+.bootstrap {
+  min-height: 80px;
+}
