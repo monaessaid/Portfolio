@@ -1695,3 +1695,16 @@ figure.effect-julia p {
 .bootstrap {
   min-height: 80px;
 }
+
+.projects-titles {
+  padding-top: 20%;
+  /* margin-bottom: 10%; */
+}
+
+.image-container2 {
+  /* margin: 0 auto; */
+  padding-top: 5%;
+  margin: 0;
+  padding-bottom: 0;
+  /* margin-bottom: -10px; */
+}
