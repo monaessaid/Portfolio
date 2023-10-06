@@ -126,6 +126,18 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 113px;
 }
 
+.line-symbol-no-top {
+  padding: 0;
+  border: none;
+  border-top: 1px solid #DADADA;
+  color: #DADADA;
+  text-align: center;
+  width: 83%;
+  margin: 0 auto;
+  background: transparent;
+  margin-top: 5%;
+}
+
 .line-symbol2:after {
   content: url(../images/wave.png);
   display: inline-block;
@@ -136,6 +148,15 @@ h1, h2, h3, h4, h5, h6 {
   background: white;
 }
 
+.line-symbol-no-top:after {
+  content: url(../images/wave.png);
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 0.9em;
+  padding: 0 0.25em;
+  background: white;
+}
 
 .list-doc {
     padding-left: 20px;
