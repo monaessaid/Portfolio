@@ -14,7 +14,7 @@ body {
   font-family: "Roboto", Arial, serif;
   background: transparent;
   /* border: 20px #669999 solid; */
-  border: 20px #082f2f solid;
+  border: 20px #14184f solid;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -78,14 +78,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .home-heading span {
-  background-color: #082f2f;
+  /* background-color: #040646; */
+  background-color: #2f3cc8;
   color: white;
   padding: 4px;
 }
 
 #inner-section {
    margin-top: 100px;
-   padding-bottom: 110px;
+   /* padding-bottom: 110px; */
 }
 
 .inner-heading {
@@ -312,7 +313,7 @@ h1, h2, h3, h4, h5, h6 {
 .overlay {
     position: fixed;
     display: block; 
-    background: #082f2f;
+    background: #111c78;
     top: 0;
     border: 0;
     left: 0;
@@ -490,7 +491,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
   
 }
  .block {
-	background-color: #082f2f;
+	background-color: #040646;
 background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox='0 0 100 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21.184 20c.357-.13.72-.264 1.088-.402l1.768-.661C33.64 15.347 39.647 14 50 14c10.271 0 15.362 1.222 24.629 4.928.955.383 1.869.74 2.75 1.072h6.225c-2.51-.73-5.139-1.691-8.233-2.928C65.888 13.278 60.562 12 50 12c-10.626 0-16.855 1.397-26.66 5.063l-1.767.662c-2.475.923-4.66 1.674-6.724 2.275h6.335zm0-20C13.258 2.892 8.077 4 0 4V2c5.744 0 9.951-.574 14.85-2h6.334zM77.38 0C85.239 2.966 90.502 4 100 4V2c-6.842 0-11.386-.542-16.396-2h-6.225zM0 14c8.44 0 13.718-1.21 22.272-4.402l1.768-.661C33.64 5.347 39.647 4 50 4c10.271 0 15.362 1.222 24.629 4.928C84.112 12.722 89.438 14 100 14v-2c-10.271 0-15.362-1.222-24.629-4.928C65.888 3.278 60.562 2 50 2 39.374 2 33.145 3.397 23.34 7.063l-1.767.662C13.223 10.84 8.163 12 0 12v2z' fill='%23050506' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
 	padding: 20px;
 	min-height: 300px;
@@ -854,7 +855,8 @@ figure.effect-julia:hover p {
    padding-bottom: 50px;
    letter-spacing: 2px;
    display: block;
-   color: #669999;
+   /* color: #669999; */
+   color: #2f3cc8;
 }
 
 .text-studio {
@@ -1150,7 +1152,8 @@ figure.effect-julia:hover p {
 
 .speciality-info h3 {
 	margin-top: 20px;
-	color:  #669999;
+	/* color:  #669999; */
+	color:  #2f3cc8;
 	text-transform: capitalize;
 	font-size: 22px;
 	font-weight: 700;
@@ -1249,7 +1252,8 @@ figure.effect-julia:hover p {
    padding-bottom: 50px;
    letter-spacing: 2px;
    display: block;
-   color: #669999;
+   /* color: #669999; */
+   color: #2f3cc8;
 }
 
 .text-projectd {
@@ -1417,7 +1421,8 @@ label {
 
 footer {
 	background-color: #727272;
-	background-image:url(../images/ginko.png);
+	background-image:url(../images/flower-backgound2.jpg);
+	/* background-image:url(../images/ginko.png); */
 	/* background-image:url(../images/leaves_wallpaper2.png); */
 	/* background-image:url(../images/leaves_wallpaper5.png); */
 	/* background-image:url(../images/leafy_wallpaper2.jpg); */
@@ -1430,7 +1435,7 @@ footer .container {
 }
 
 .section-bg-color {
-	background-color: #052215; 
+	background-color: #040646; 
 	padding-top: 42px;
 	padding-bottom: 42px;
   /* text-align: center; */
@@ -1685,7 +1690,8 @@ figure.effect-julia p {
 }
 
 #project-titles {
-  color: #669999;
+  /* color: #669999; */
+  color: #2f3cc8;
 }
 
 /* #no-padding {
@@ -1729,4 +1735,8 @@ figure.effect-julia p {
   margin: 0;
   padding-bottom: 0;
   /* margin-bottom: -10px; */
+}
+
+#gears-image {
+  max-width: 325px;
 }
