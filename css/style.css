@@ -58,12 +58,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .home-heading {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 300;
   line-height: 1.4;
   margin-bottom: 0;
   padding-bottom: 20px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-align: justify;
 }
 
@@ -78,8 +78,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .home-heading span {
-  /* background-color: #040646; */
-  background-color: #2f3cc8;
+  background-color: #14184f;
+  /* background-color: #2f3cc8; */
   color: white;
   padding: 4px;
 }
@@ -612,7 +612,8 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
 
 
 figure.effect-julia {
-	background: #2f3238;
+	/* background: #2f3238; */
+	background: #001847;
 }
 
 figure.effect-julia img {
@@ -888,12 +889,10 @@ figure.effect-julia:hover p {
 }
 
  .img-studio {
-    border: 20px #c1d6d6 solid;
+    border: 20px #14184f solid;
     position: relative;
-	margin-top: 10px;
+    box-shadow: 0 4px 8px 0 black;
 }
-
-
 
 /* Clients section */
 
@@ -955,88 +954,6 @@ figure.effect-julia:hover p {
 	background-color: #ff6633;
 }
 
-
-/* Team section */
-
-.designer-top {
-	background: url(../images/team1.jpg) no-repeat center;
-	width: 25%;
-	float: left;
-	min-height: 100%;
-	display: inline-block;
-	padding: 20em 2em 6em;
-}
-
-.designer-top h4 {
-	font-size: 22px;
-	color: white;
-	text-transform: uppercase;
-	font-weight: 400;
-}
-
-.designer-top span {
-	font-size: 18px;
-	color: white;
-	text-transform: uppercase;
-	font-weight: bold;
-}
-
-.designer-top p {
-	font-size: 15px;
-	color:white;
-	line-height: 1.7;
-	margin-top: 16px;
-}
-
-.designer-in {
-	background: url(../images/team4.jpg) no-repeat left;
-	text-align: left;
-}
-
-.designer-in-top {
-	background: url(../images/team3.jpg) no-repeat left top;
-}
-
-.designer-in-on {
-	background: url(../images/team2.jpg) no-repeat left;
-	text-align: left;
-}
-
-
-.inner-team {
-   margin-top: 40px;
-   padding-bottom: 90px;
-}
-
-.inner-heading-team {
-  font-size: 40px;
-  font-weight: 300;
-  line-height: 1.4;
-  margin-bottom: 0;
-  padding-bottom: 20px;
-  letter-spacing: 2px;
-}
-
-.text-inner-team {
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.4;
-  margin-bottom: 0;
-  padding-bottom: 20px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-.inner-heading-team  span {
-  background-color: #c1d6d6;
-  color: white;
-  padding: 4px;
-}
-
-.spiral-image {
-	margin-top: 70px;
-}
-
 /*-- Services --*/
 
 .grid-serv {
@@ -1076,7 +993,7 @@ figure.effect-julia:hover p {
 
 .speciality-info:hover {
 	/* background-color: #eaeaea; */
-	background-color: #66999925;
+	background-color: #1dc9eb26;
   cursor: pointer;
 }
 
@@ -1422,10 +1339,6 @@ label {
 footer {
 	background-color: #727272;
 	background-image:url(../images/flower-backgound2.jpg);
-	/* background-image:url(../images/ginko.png); */
-	/* background-image:url(../images/leaves_wallpaper2.png); */
-	/* background-image:url(../images/leaves_wallpaper5.png); */
-	/* background-image:url(../images/leafy_wallpaper2.jpg); */
 	background-position: left top;
 	background-repeat: repeat;
 }
@@ -1482,7 +1395,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
 @media(max-width: 1024px) {
 
 body {
-  border: 10px solid #082f2f;
+  border: 10px solid #14184f;
 }
 
 .home-heading, .inner-heading, .inner-heading-team, .inner-projects-heading {
@@ -1576,7 +1489,6 @@ body {
 }
 
 
-
 }
 
 @media(min-width:768px) {
@@ -1616,7 +1528,7 @@ header {
   }
   
 body {
-  border: 10px solid #082f2f;
+  border: 10px solid #14184f;
 }
 
 figure.effect-julia h2 {
@@ -1694,21 +1606,9 @@ figure.effect-julia p {
   color: #2f3cc8;
 }
 
-/* #no-padding {
-  padding-bottom: 0;
-} */
-
 .top-padding {
   padding-top: 5%;
 }
-
-/* .top-logo {
-  position: absolute;
-  width: 20%;
-  max-width: 20%;
-  height: 20%;
-  max-height: 20%;
-} */
 
 .material-symbols-outlined {
   color: black;
@@ -1726,17 +1626,20 @@ figure.effect-julia p {
 
 .projects-titles {
   padding-top: 20%;
-  /* margin-bottom: 10%; */
 }
 
 .image-container2 {
-  /* margin: 0 auto; */
   padding-top: 5%;
   margin: 0;
   padding-bottom: 0;
-  /* margin-bottom: -10px; */
 }
 
 #gears-image {
   max-width: 325px;
+}
+
+.home-body {
+  max-width: 95%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
