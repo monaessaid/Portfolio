@@ -25,14 +25,14 @@ img {
 
 
 a {
-  color: #669999;
+  /* color: #669999; */
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 
 a:hover {
-  color: #A7CDCC;
+  color:#2f3cc8;
   text-decoration: underline;
 }
 
