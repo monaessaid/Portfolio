@@ -1,7 +1,9 @@
 
 /* ------------------------------------------------------------------
-Theme: Simple Studio - Creative Bootstrap Theme
-Author: Marija Zaric
+Template Theme: Simple Studio - Creative Bootstrap Theme
+Template Author: Marija Zaric
+
+Site Author: Mona Es-Said
 ------------------------------------------------------------------ */
 
 
@@ -53,8 +55,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #home-section {
-  margin-top: 160px;
-  padding-bottom: 40px;
+  margin-top: 10%;
+  /* padding-bottom: 5%; */
 }
 
 .home-heading {
